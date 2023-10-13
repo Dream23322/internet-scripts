@@ -98,3 +98,18 @@ var autoclicker = setInterval(function(){
   
 - ```Game.HardReset(2);``` - hard reset your game
 </details>
+
+
+# Wordle Bypass
+
+[Credit](https://github.com/pog5/nealpasswordgame/blob/main/CHEATS.md)
+
+Probably the easiest one of them all.
+
+Replace `DATE` with today's date in the format `YYYY-MM-DD`:
+`https://neal.fun/api/password-game/wordle?date=DATE`
+
+Alternatively, you can paste the following one-liner into the developer console (F12):
+```js
+d=new Date().toISOString().split('T')[0],fetch(`https://neal.fun/api/password-game/wordle?date=${d}`).then(r=>r.json()).then(d=>console.log(d.answer))
+```
