@@ -1,4 +1,4 @@
-# internet-scripts
+# internet-scripts (TEST TEXT)
 
 A collection of simple console scripts for silly online games like cookie clicker [Hacks]
 
