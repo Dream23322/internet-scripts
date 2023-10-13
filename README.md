@@ -1,3 +1,5 @@
+
+```markdown
 # internet-scripts
 A collection of simple console scripts for silly online games like cookie clicker [Hacks]
 
@@ -127,7 +129,6 @@ var setCPS = setInterval(function(){
 - ```Game.HardReset(2);``` - hard reset your game
 </details>
 
-
 # Wordle Bypass
 
 [Credit](https://github.com/pog5/nealpasswordgame/blob/main/CHEATS.md)
@@ -139,11 +140,14 @@ Replace `DATE` with today's date in the format `YYYY-MM-DD`:
 
 Alternatively, you can paste the following one-liner into the developer console (F12):
 ```js
-d=new Date().toISOString().split('T')[0],fetch(`https://neal.fun/api/password-game/wordle?date=${d}`).then(r=>r.json()).then(d=>console.log(d.answer))
-```
+d=new Date().toISOString().split('T')[0],fetch(`https://neal.fun/api/password-game/wordle?date=${d}`).then(r=>r.json()).then(d=>console.log(d
 
+.answer))
+```
 
 # Ortiel Legacy Game
 
 A good cheat for that game can be found [here](https://github.com/geekahedron/heritage/tree/master)
+```
 
+This should provide the increased spacing between sections.
