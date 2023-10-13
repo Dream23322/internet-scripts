@@ -1,7 +1,8 @@
 # internet-scripts
 A collection of simple console scripts for silly online games like cookie clicker [Hacks]
+
 # How to use?
-To open the console on your browser, click CTRL+Shift+C then click the console tab, paste the script in and have fun!
+To open the console on your browser, click CTRL+Shift+C, then click the console tab, paste the script in, and have fun!
 
 ## Cookie Clicker
 
@@ -18,69 +19,69 @@ var autoclicker = setInterval(function(){
 }, 1);
 ```
 
-
 <details>
   <summary>Single Line Scripts</summary>
-Game.Achievements['<achievement name>'].won=1; - unlocks the achievement of your choice
 
-Game.Ascend(1); - ascend to a heavenly space, turning your cookies into Heavenly Chips and Prestige
+- ```Game.Achievements['<achievement name>'].won=1;``` - unlocks the achievement of your choice
 
-Game.AscendTimer=<time>; - change the Ascend Timer
+- ```Game.Ascend(1);``` - ascend to a heavenly space, turning your cookies into Heavenly Chips and Prestige
 
-Game.bakeryName="<bakery name>"; - set a name for your bakery
+- ```Game.AscendTimer=<time>;``` - change the Ascend Timer
 
-Game.bakeryNameRefresh(); - refresh your bakery name
+- ```Game.bakeryName="<bakery name>";``` - set a name for your bakery
 
-Game.BuildAscendTree(); - build the Ascend Tree
+- ```Game.bakeryNameRefresh();``` - refresh your bakery name
 
-Game.buyBulk=<1/10/100>; - changes your X# buy amount
+- ```Game.BuildAscendTree();``` - build the Ascend Tree
 
-Game.CalculateGains(); - calculates gains
+- ```Game.buyBulk=<1/10/100>;``` - changes your X# buy amount
 
-Game.computedMouseCps; - computes your mouse Cps (mouse cookies per second amount)
+- ```Game.CalculateGains();``` - calculates gains
 
-Game.computedMouseCps=<your desired mouse Cps amount>; - change your mouse Cps
+- ```Game.computedMouseCps;``` - computes your mouse Cps (mouse cookies per second amount)
 
-Game.dragonLevel=<level>; - set your dragon level
+- ```Game.computedMouseCps=<your desired mouse Cps amount>;``` - change your mouse Cps
 
-Game.gainLumps(<amount of lumps>); - add as many lumps as you want
+- ```Game.dragonLevel=<level>;``` - set your dragon level
 
-Game.Has('<achievement name>'); - check if you have a certain achievement
+- ```Game.gainLumps(<amount of lumps>);``` - add as many lumps as you want
 
-Game.killShimmers(); - removes all shimmers
+- ```Game.Has('<achievement name>');``` - check if you have a certain achievement
 
-Game.LoadSave(); - load a saved file
+- ```Game.killShimmers();``` - removes all shimmers
 
-Game.LoadSave(local); - load a local save file
+- ```Game.LoadSave();``` - load a saved file
 
-Game.localStorageGet(Game.SaveTo); - save your game locally
+- ```Game.LoadSave(local);``` - load a local save file
 
-Game.MaxSpecials(); - get the max amount of specials
+- ```Game.localStorageGet(Game.SaveTo);``` - save your game locally
 
-Game.Milk = <amount>; - change your milk amount
+- ```Game.MaxSpecials();``` - get the max amount of specials
 
-Game.milkProgress = <milk amount>; - change your milk progress
+- ```Game.Milk = <amount>;``` - change your milk amount
 
-Game.mousePointer=0; - change your mouse pointer
+- ```Game.milkProgress = <milk amount>;``` - change your milk progress
 
-Game.particlesUpdate(); - update particles
+- ```Game.mousePointer=0;``` - change your mouse pointer
 
-Game.popups=0; - remove the game's popup notifications
+- ```Game.particlesUpdate();``` - update particles
 
-Game.RuinTheFun(1); - unlock everything)
+- ```Game.popups=0;``` - remove the game's popup notifications
 
-Game.santaLevel=<level>; - set the game's santa level
+- ```Game.RuinTheFun(1);``` - unlock everything)
 
-Game.sesame=0; - turn sesame on or off
+- ```Game.santaLevel=<level>;``` - set the game's santa level
 
-Game.SesameReset(); - reset the game
+- ```Game.sesame=0;``` - turn sesame on or off
 
-Game.SetAllAchievs(1); - unlock all achievements
+- ```Game.SesameReset();``` - reset the game
 
-Game.SetAllUpgrade(1); - get all upgrades
+- ```Game.SetAllAchievs(1);``` - unlock all achievements
 
-Game.Win('<achievement name>'); - another way to unlock an achievement of your choice
+- ```Game.SetAllUpgrade(1);``` - get all upgrades
 
-Timer.track('milk'); - lets you track the milk timer
+- ```Game.Win('<achievement name>');``` - another way to unlock an achievement of your choice
 
+- ```Timer.track('milk');``` - lets you track the milk timer
 </details>
+
