@@ -87,9 +87,14 @@ var autoclicker = setInterval(function(){
 <details>
   <summary>Debug Codes</summary>
     <body>If you have issues with your game, use these!</body>
+  
 - ```Game.DebuggingPrestige=false;``` - debugs your prestige
+  
 - ```Game.debugTimersOn=<0 or 1>;``` - turns the debug timers off or on
+  
 - ```Game.DebugUpgradeCpS();``` - debugs your Upgrades Cps
+  
 - ```Game.GetAllDebugs();``` - get all the possible debugs
+  
 - ```Game.HardReset(2);``` - hard reset your game
 </details>
