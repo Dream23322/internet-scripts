@@ -1,3 +1,4 @@
+<pre>
 # internet-scripts
 A collection of simple console scripts for silly online games like cookie clicker [Hacks]
 
@@ -63,3 +64,4 @@ d=new Date().toISOString().split('T')[0],fetch(`https://neal.fun/api/password-ga
 
 # Ortiel Legacy Game
 A good cheat for that game can be found [here](https://github.com/geekahedron/heritage/tree/master)
+</pre>
