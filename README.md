@@ -21,6 +21,14 @@ var autoclicker = setInterval(function(){
 
 <details>
   <summary>Single Line Scripts</summary>
+  
+- ```Game.Earn(<cookie amount>);``` - earn as many cookies as you want, on top of your current total
+  
+- ```Game.cookies=1000;``` - set your total cookies to whichever number you want
+  
+- ```Game.cookies= Game.cookies + <number>;``` - adds the desired amount of cookies to your current total
+  
+- ```Game.cookiesPs=<number>;``` - sets your cookies per second amount
 
 - ```Game.Achievements['<achievement name>'].won=1;``` - unlocks the achievement of your choice
 
@@ -113,3 +121,9 @@ Alternatively, you can paste the following one-liner into the developer console 
 ```js
 d=new Date().toISOString().split('T')[0],fetch(`https://neal.fun/api/password-game/wordle?date=${d}`).then(r=>r.json()).then(d=>console.log(d.answer))
 ```
+
+
+# Ortiel Legacy Game
+
+A good cheat for that game can be found [here](https://github.com/geekahedron/heritage/tree/master)
+
