@@ -20,15 +20,25 @@ var autoclicker = setInterval(function(){
 ```
 
 <details>
-  <summary>Single Line Scripts</summary>
+  <summary>Other Cookie Clicker Scripts</summary>
   
 - ```Game.Earn(<cookie amount>);``` - earn as many cookies as you want, on top of your current total
   
 - ```Game.cookies=1000;``` - set your total cookies to whichever number you want
   
 - ```Game.cookies= Game.cookies + <number>;``` - adds the desired amount of cookies to your current total
-  
-- ```Game.cookiesPs=<number>;``` - sets your cookies per second amount
+
+Set your cookies per second
+
+```javascript
+var setPS = setInterval(function(){
+  try {
+    Game.cookiesPs=<number>;
+  } catch (err) {
+    clearInterval(setPS);
+  }
+}, 1);
+```
 
 - ```Game.Achievements['<achievement name>'].won=1;``` - unlocks the achievement of your choice
 
@@ -48,7 +58,17 @@ var autoclicker = setInterval(function(){
 
 - ```Game.computedMouseCps;``` - computes your mouse Cps (mouse cookies per second amount)
 
-- ```Game.computedMouseCps=<your desired mouse Cps amount>;``` - change your mouse Cps
+Change your mouse Cps
+
+```javascript
+var setCPS = setInterval(function(){
+  try {
+    Game.computedMouseCps=<your desired mouse Cps amount>;
+  } catch (err) {
+    clearInterval(setCPS);
+  }
+}, 1);
+```
 
 - ```Game.dragonLevel=<level>;``` - set your dragon level
 
