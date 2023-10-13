@@ -18,15 +18,16 @@ var autoclicker = setInterval(function(){
 }, 1);
 ```
 
-**Single Line Scripts**
 
-Game.Achievements[‘<achievement name>’].won=1; - unlocks the achievement of your choice
+<details>
+  <summary>Single Line Scripts</summary>
+Game.Achievements['<achievement name>'].won=1; - unlocks the achievement of your choice
 
 Game.Ascend(1); - ascend to a heavenly space, turning your cookies into Heavenly Chips and Prestige
 
 Game.AscendTimer=<time>; - change the Ascend Timer
 
-Game.bakeryName=”<bakery name>”; - set a name for your bakery
+Game.bakeryName="<bakery name>"; - set a name for your bakery
 
 Game.bakeryNameRefresh(); - refresh your bakery name
 
@@ -44,7 +45,7 @@ Game.dragonLevel=<level>; - set your dragon level
 
 Game.gainLumps(<amount of lumps>); - add as many lumps as you want
 
-Game.Has(‘<achievement name>’); - check if you have a certain achievement
+Game.Has('<achievement name>'); - check if you have a certain achievement
 
 Game.killShimmers(); - removes all shimmers
 
@@ -78,6 +79,8 @@ Game.SetAllAchievs(1); - unlock all achievements
 
 Game.SetAllUpgrade(1); - get all upgrades
 
-Game.Win(‘<achievement name>’); - another way to unlock an achievement of your choice
+Game.Win('<achievement name>'); - another way to unlock an achievement of your choice
 
-Timer.track(‘milk’); - lets you track the milk timer
+Timer.track('milk'); - lets you track the milk timer
+
+</details>
